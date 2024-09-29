@@ -9,8 +9,9 @@ const restaurantData = require('../data/restaurant_data')();  // Import restaura
 module.exports = (app) => {
   app.use('/api/test', test);
   app.use('/api/home_search', home_search);
-  app.use('/api/shop_list', shop_list);
-  app.use('/api/auth', auth);
+  app.use('/api/shop_list', shop_list); 
+  app.post('/api/auth/login', auth.login);     // Handle login requests
+  app.post('/api/auth/register', auth.register);  // Handle registration requests
 
   // Route to fetch all restaurants
   app.get('/api/restaurants', (req, res) => {

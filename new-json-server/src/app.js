@@ -13,7 +13,6 @@ const middlewares = jsonServer.defaults({
   static: path.join(__dirname, '../public')
 });
 
-// Add this before the router configuration in app.js
 server.get('/', (req, res) => {
   res.send('Hi Sky, Welcome to the JSON Server!');
 });
@@ -29,13 +28,6 @@ server.use((req, res, next) => {
     res.sendStatus(401)
   }
 })  
-
-
-
-
-
-
-
 
 server.use((req, res, next) => {
   const json = res.json.bind(res);
