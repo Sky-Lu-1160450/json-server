@@ -18,13 +18,17 @@ function saveOrdersToFile() {
 
 // Place an order
 module.exports.placeOrder = (req, res) => {
-    // console.log('Received order:', req.body);
-  
-  const { items, totalPrice, deliveryFee } = req.body;
+    const { items, totalPrice, deliveryFee, userId } = req.body;
+
+  console.log('Received order request body:', req.body);
+  if (!userId) {
+    console.error('User ID is missing from request');
+    return res.status(400).json({ message: 'User ID is required' });
+  }
 
   // Validate the incoming data
   if (!items || items.length === 0) {
-    return res.fail('No items in the order.', 400);
+    return res.status(400).json({ error: 'No items in the order.' });
   }
 
   // Create a new order
@@ -41,13 +45,19 @@ module.exports.placeOrder = (req, res) => {
   orders.push(newOrder);
 
   // Save updated orders to the file
-  fs.writeFileSync(filePath, JSON.stringify(orders, null, 2));
+  saveOrdersToFile();  // Use the saveOrdersToFile function here
 
   // Respond with success
-  res.success({ message: 'Order placed successfully.', orderId: newOrder.id });
+  res.status(201).json({
+    data: {
+      message: 'Order placed successfully.',
+      orderId: newOrder.id
+    },
+    code: 0
+  });
 };
 
 // Get all orders (for admin dashboard or order history)
 module.exports.getAllOrders = (req, res) => {
-  res.success(orders);
+  res.status(200).json(orders);
 };

@@ -14,6 +14,19 @@ module.exports = () => {
     "password": "123456",
     "nickname": "cccc",
     "avatar": "/imgs/default_avatar.png"
+  },
+  {
+    "id": 3,
+    "username": "jjkk",
+    "nickname": "fjjgj",
+    "avatar": "/imgs/default_avatar.png"
+  },
+  {
+    "id": 4,
+    "username": "appl",
+    "password": "123456",
+    "nickname": "ffff",
+    "avatar": "/imgs/default_avatar.png"
   }
 ];
 };
