@@ -48,7 +48,7 @@ module.exports.register = (req, res) => {
     username,
     password,
     nickname: nickname || 'New User',
-    avatar: avatar || '/imgs/default_avatar.png',
+    avatar: avatar || '/imgs/me_page/robot.jpg',
   };
 
   userListData.push(newUser);

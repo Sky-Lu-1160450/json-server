@@ -27,6 +27,27 @@ module.exports = () => {
     "password": "123456",
     "nickname": "ffff",
     "avatar": "/imgs/default_avatar.png"
+  },
+  {
+    "id": 5,
+    "username": "apple",
+    "password": "123456",
+    "nickname": "apple1",
+    "avatar": "/imgs/default_avatar.png"
+  },
+  {
+    "id": 6,
+    "username": "Zhong",
+    "password": "123456",
+    "nickname": "Huang",
+    "avatar": "/imgs/default_avatar.png"
+  },
+  {
+    "id": 7,
+    "username": "Huangzhong",
+    "password": "123456",
+    "nickname": "zhong",
+    "avatar": "/imgs/me_page/robot.jpg"
   }
 ];
 };
