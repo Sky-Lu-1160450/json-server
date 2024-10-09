@@ -39,6 +39,7 @@ module.exports.placeOrder = (req, res) => {
     deliveryFee,
     status: 'Pending',
     createdAt: new Date(),
+    userId,
   };
 
   // Add the new order to the orders array
@@ -60,4 +61,23 @@ module.exports.placeOrder = (req, res) => {
 // Get all orders (for admin dashboard or order history)
 module.exports.getAllOrders = (req, res) => {
   res.status(200).json(orders);
+};
+
+
+// Get orders for a specific user
+module.exports.getUserOrders = (req, res) => {
+  const { userId } = req.params;
+
+  if (!userId) {
+    return res.status(400).json({ message: 'User ID is required', code: 1 });
+  }
+
+  // Filter orders by userId
+  const userOrders = orders.filter(order => order.userId === userId);
+
+  if (userOrders.length > 0) {
+    return res.status(200).json({ data: userOrders, code: 0 });
+  } else {
+    return res.status(404).json({ message: 'No orders found for this user', code: 1 });
+  }
 };

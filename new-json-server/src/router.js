@@ -38,4 +38,5 @@ module.exports = (app) => {
   // Order routes
   app.post('/api/order/place', orderController.placeOrder);    // Place an order
   app.get('/api/order/all', orderController.getAllOrders);     // Get all orders
+  app.get('/api/order/user/:userId', orderController.getUserOrders);
 };
