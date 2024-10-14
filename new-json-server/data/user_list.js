@@ -48,7 +48,7 @@ module.exports = () => {
     "password": "123456",
     "nickname": "zhong",
     "avatar": "/imgs/me_page/robot.jpg",
-    "address": "lomniiuy"
+    "address": "168 Tuapap st ,Wellington NZ"
   }
 ];
 };

@@ -18,12 +18,18 @@ function saveOrdersToFile() {
 
 // Place an order
 module.exports.placeOrder = (req, res) => {
-    const { items, totalPrice, deliveryFee, userId } = req.body;
+  const { items, totalPrice, deliveryFee, userId, address } = req.body;  // Extract address
 
   console.log('Received order request body:', req.body);
+
   if (!userId) {
     console.error('User ID is missing from request');
     return res.status(400).json({ message: 'User ID is required' });
+  }
+
+  if (!address) {
+    console.error('Address is missing from request');
+    return res.status(400).json({ message: 'Address is required' });
   }
 
   // Validate the incoming data
@@ -40,13 +46,14 @@ module.exports.placeOrder = (req, res) => {
     status: 'Pending',
     createdAt: new Date(),
     userId,
+    address,  // Add address to the new order object
   };
 
   // Add the new order to the orders array
   orders.push(newOrder);
 
   // Save updated orders to the file
-  saveOrdersToFile();  // Use the saveOrdersToFile function here
+  saveOrdersToFile();
 
   // Respond with success
   res.status(201).json({

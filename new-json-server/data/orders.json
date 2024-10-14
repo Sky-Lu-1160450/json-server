@@ -1460,5 +1460,58 @@
     "status": "Pending",
     "createdAt": "2024-10-13T21:03:22.853Z",
     "userId": "7"
+  },
+  {
+    "id": 49,
+    "items": [
+      {
+        "cartCount": 19,
+        "checked": true,
+        "id": 1,
+        "imgUrl": "/imgs/shop_page/goods-1.jpeg",
+        "name": "【果切】 芒果自由选 约 650g 芒果拼拼",
+        "oldPrice": 29.9,
+        "price": 9.9,
+        "sellCount": 587,
+        "rating": 4.2,
+        "tips": "",
+        "discount": {
+          "type": 1,
+          "limitCount": 1
+        }
+      }
+    ],
+    "totalPrice": 188.1,
+    "deliveryFee": 0,
+    "status": "Pending",
+    "createdAt": "2024-10-14T08:33:50.686Z",
+    "userId": "7"
+  },
+  {
+    "id": 50,
+    "items": [
+      {
+        "cartCount": 24,
+        "checked": true,
+        "id": 4,
+        "imgUrl": "/imgs/shop_page/goods-4.jpeg",
+        "name": "【果切】 菠萝+芒果 约 750g 菠萝拼拼",
+        "oldPrice": 38.9,
+        "price": 19.9,
+        "sellCount": 87,
+        "tips": "试一次吧，保证你买不了吃亏买不了上当",
+        "rating": 3.8,
+        "discount": {
+          "type": 1,
+          "limitCount": 1
+        }
+      }
+    ],
+    "totalPrice": 477.6,
+    "deliveryFee": 0,
+    "status": "Pending",
+    "createdAt": "2024-10-14T09:39:04.999Z",
+    "userId": "7",
+    "address": "168 Tuapap st ,Wellington NZ"
   }
 ]
