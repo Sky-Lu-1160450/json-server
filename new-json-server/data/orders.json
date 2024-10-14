@@ -1392,5 +1392,73 @@
     "status": "Completed",
     "createdAt": "2024-10-09T10:22:06.351Z",
     "userId": "7"
+  },
+  {
+    "id": 47,
+    "items": [
+      {
+        "cartCount": 4,
+        "checked": true,
+        "id": 1,
+        "imgUrl": "/imgs/shop_page/goods-1.jpeg",
+        "name": "【果切】 芒果自由选 约 650g 芒果拼拼",
+        "oldPrice": 29.9,
+        "price": 9.9,
+        "sellCount": 587,
+        "rating": 4.2,
+        "tips": "",
+        "discount": {
+          "type": 1,
+          "limitCount": 1
+        }
+      },
+      {
+        "cartCount": 4,
+        "checked": true,
+        "id": 6,
+        "imgUrl": "/imgs/shop_page/goods-6.jpeg",
+        "name": "【果切】 火龙果+黄瓜 约 850g 火龙果菠萝",
+        "oldPrice": 38.9,
+        "price": 19.9,
+        "sellCount": 87,
+        "tips": "试一次吧，保证你买不了吃亏买不了上当",
+        "rating": 3.8,
+        "discount": {
+          "type": 1,
+          "limitCount": 1
+        }
+      }
+    ],
+    "totalPrice": 119.2,
+    "deliveryFee": 0,
+    "status": "Pending",
+    "createdAt": "2024-10-13T09:07:58.894Z",
+    "userId": "7"
+  },
+  {
+    "id": 48,
+    "items": [
+      {
+        "cartCount": 11,
+        "checked": true,
+        "id": 1,
+        "imgUrl": "/imgs/shop_page/goods-1.jpeg",
+        "name": "【果切】 芒果自由选 约 650g 芒果拼拼",
+        "oldPrice": 29.9,
+        "price": 9.9,
+        "sellCount": 587,
+        "rating": 4.2,
+        "tips": "",
+        "discount": {
+          "type": 1,
+          "limitCount": 1
+        }
+      }
+    ],
+    "totalPrice": 108.9,
+    "deliveryFee": 0,
+    "status": "Pending",
+    "createdAt": "2024-10-13T21:03:22.853Z",
+    "userId": "7"
   }
 ]

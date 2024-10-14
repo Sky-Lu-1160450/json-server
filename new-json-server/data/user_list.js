@@ -47,8 +47,9 @@ module.exports = () => {
     "username": "Huangzhong",
     "password": "123456",
     "nickname": "zhong",
-    "avatar": "/imgs/me_page/robot.jpg"
+    "avatar": "/imgs/me_page/robot.jpg",
+    "address": "lomniiuy"
   }
 ];
 };
-  
+    

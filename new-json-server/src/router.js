@@ -14,6 +14,7 @@ module.exports = (app) => {
   app.use('/api/shop_list', shop_list);
   app.post('/api/auth/login', auth.login);     // Handle login requests
   app.post('/api/auth/register', auth.register);  // Handle registration requests
+  app.post('/api/auth/updateAddress', auth.updateAddress);
 
   // Restaurant routes
   app.get('/api/restaurants', (req, res) => {
