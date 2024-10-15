@@ -12,5 +12,5 @@ module.exports = (req, res, next) => {
             data,
             total: allData.length,
         });
-    }, 2000);
+    }, 500);
 };

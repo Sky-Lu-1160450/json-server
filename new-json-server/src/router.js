@@ -3,6 +3,7 @@ const home_search = require('./controller/home_search');
 const shop_list = require('./controller/shop_list');
 const auth = require('./controller/auth');
 const orderController = require('./controller/order');  // Import the order controller
+const shopPageController = require('./controller/shop_page');  // Add the controller
 
 const restaurantData = require('../data/restaurant_data')();  // Import restaurant data
 const cors = require('cors');
@@ -40,4 +41,5 @@ module.exports = (app) => {
   app.post('/api/order/place', orderController.placeOrder);    // Place an order
   app.get('/api/order/all', orderController.getAllOrders);     // Get all orders
   app.get('/api/order/user/:userId', orderController.getUserOrders);
+  app.get('/api/shop_page/:id', shopPageController);
 };

@@ -17,7 +17,7 @@ module.exports = () => {
     testjson0: test(),
     home_page: responseData(homePage()),
     me_page: responseData(mePage()),
-    shop_page: responseData(shopPage()),
+    // shop_page: responseData(shopPage()),
     goods_list: responseData(goodsList()),
   };
 };
