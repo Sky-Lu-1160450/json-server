@@ -410,42 +410,7 @@ module.exports = () => {
             },
           ],
         },
-        {
-          value: 9,
-          label: "特价3",
-          icon: "",
-          goods: [],
-        },
-        {
-          value: 10,
-          label: "特价4",
-          icon: "",
-          goods: [],
-        },
-        {
-          value: 11,
-          label: "特价5",
-          icon: "",
-          goods: [],
-        },
-        {
-          value: 12,
-          label: "特价6",
-          icon: "",
-          goods: [],
-        },
-        {
-          value: 13,
-          label: "特价7",
-          icon: "",
-          goods: [],
-        },
-        {
-          value: 14,
-          label: "特价8",
-          icon: "",
-          goods: [],
-        },
+       
       ],
     };
   };

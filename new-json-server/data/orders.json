@@ -1642,5 +1642,32 @@
     "createdAt": "2024-10-15T01:13:04.966Z",
     "userId": "14",
     "address": "28 XIAGU, Wellington"
+  },
+  {
+    "id": 54,
+    "items": [
+      {
+        "cartCount": 4,
+        "checked": true,
+        "id": 1,
+        "imgUrl": "/imgs/shop_page/goods-1.jpeg",
+        "name": "【果切】 芒果自由选 约 650g 芒果拼拼",
+        "oldPrice": 29.9,
+        "price": 9.9,
+        "sellCount": 587,
+        "rating": 4.2,
+        "tips": "",
+        "discount": {
+          "type": 1,
+          "limitCount": 1
+        }
+      }
+    ],
+    "totalPrice": 39.6,
+    "deliveryFee": 10,
+    "status": "Pending",
+    "createdAt": "2024-10-15T03:38:41.063Z",
+    "userId": "14",
+    "address": "28 XIAGU, Wellington"
   }
 ]

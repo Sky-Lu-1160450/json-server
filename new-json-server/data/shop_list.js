@@ -1,44 +1,53 @@
-const getItemData = () => ({
-    id: 1,
-    postUrl: '/imgs/index_page/shop-list/post1.png',
-    shopName: 'Dumpling Shop',
-    
-    score: 4.7,
-    monthlyCount:'',
-    deliveryTime: '30min',
-    deliveryDistance: '849m',
-    deliveryStratingPrice: '$20.0',
-    deliveryStrategy: '', // 免配送费
+const getItemData = (id, shopName, postUrl, score, deliveryTime, deliveryDistance, deliveryStratingPrice, activitys) => ({
+    id: id,
+    postUrl: postUrl,
+    shopName: shopName,
+    score: score,
+    deliveryTime: deliveryTime,
+    deliveryDistance: deliveryDistance,
+    deliveryStratingPrice: deliveryStratingPrice,
     deliveryTags: [''],
     comments: [''],
     tops: [''],
-    activitys: [
+    activitys: activitys || [
         {
             type: 2,
-            infos: ['$20 off $100', '$10 off $50', '$50 off $200', 'Free Delivery over $60']
+            infos: ['Free Delivery over $60']
         },
-        {
-            type: 3,
-            tips: '预售优惠'
-        }
+        
     ],
     services: [
-        { type: 1, label: '仅配送' },
-        { type: 2, label: '蜂鸟速送' },
-        { type: 3, label: '品质联盟店' },
-        { type: 4, label: '支持预订' },
-        { type: 5, label: '开发票' }
+        { type: 1, label: 'Delivery only' },
+        { type: 2, label: 'Fast Delivery' },
+        { type: 3, label: 'Premium Store' },
+        { type: 4, label: 'Supports Pre-order' },
+        { type: 5, label: 'Provides Invoices' }
     ],
 });
 
 module.exports = () => {
-    const TOTAL = 50;
-    const result = [];
-    for (let i = 0; i < TOTAL; i++) {
-      const item = getItemData();
-      item.id = i;
-    //   item.postUrl = `/imgs/index_page/shop-list/post${i}.png`;
-      result.push(item);
-    }
-    return result;
-  };
+    const stores = [
+        getItemData(1, 'Fruit Shop', '/imgs/index_page/shop-list/post2.jpg', 4.7, '30min', '849m', '$20.0'),
+        getItemData(2, 'Dumpling Shop', '/imgs/index_page/shop-list/post1.png', 4.5, '25min', '1.2km', '$18.0', [
+            {
+                type: 2,
+                infos: ['Free Delivery over $60']
+            }
+        ]),
+        getItemData(3, 'Sushi Bar', '/imgs/index_page/shop-list/post3.jpeg', 4.8, '20min', '500m', '$25.0', [
+            {
+                type: 2,
+                infos: ['Free Delivery over $60']
+            }
+        ]),
+        getItemData(4, 'Burger House', '/imgs/index_page/shop-list/post4.jpg', 4.2, '35min', '1.5km', '$22.0', [
+            {
+                type: 2,
+                infos: ['Free Delivery over $30']
+            }
+        ]),
+        // Add more stores
+    ];
+
+    return stores;
+};
