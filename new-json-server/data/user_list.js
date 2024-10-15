@@ -49,6 +49,55 @@ module.exports = () => {
     "nickname": "zhong",
     "avatar": "/imgs/me_page/robot.jpg",
     "address": "168 Tuapap st ,Wellington NZ"
+  },
+  {
+    "id": 8,
+    "username": "Jialuo",
+    "nickname": "Jialuo",
+    "avatar": "/imgs/me_page/robot.jpg",
+    "address": "607 Longzhu Road Wellington"
+  },
+  {
+    "id": 9,
+    "username": "baili",
+    "nickname": "bai",
+    "avatar": "/imgs/me_page/robot.jpg"
+  },
+  {
+    "id": 10,
+    "username": "Houzi",
+    "nickname": "Sun",
+    "avatar": "/imgs/me_page/robot.jpg",
+    "address": "Auckland"
+  },
+  {
+    "id": 11,
+    "username": "coco",
+    "password": "123456",
+    "nickname": "co9",
+    "avatar": "/imgs/me_page/robot.jpg"
+  },
+  {
+    "id": 12,
+    "username": "Lan",
+    "password": "123456",
+    "nickname": "Daye",
+    "avatar": "/imgs/me_page/robot.jpg"
+  },
+  {
+    "id": 13,
+    "username": "Donghuang",
+    "password": "123456",
+    "nickname": "fashi",
+    "avatar": "/imgs/me_page/robot.jpg"
+  },
+  {
+    "id": 14,
+    "username": "Mozi",
+    "password": "123456",
+    "nickname": "fuzhu",
+    "avatar": "/imgs/me_page/robot.jpg",
+    "address": "28 XIAGU, Wellington"
   }
 ];
 };

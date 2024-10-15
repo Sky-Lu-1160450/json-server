@@ -23,11 +23,11 @@ module.exports.login = (req, res, next) => {
 // Register Handler
 module.exports.register = (req, res) => {
   const { username, password, nickname, avatar } = req.body;
-  let userListData = userList();
+  let userListData = userList();  // Load the current user list
 
   const existingUser = userListData.find(user => user.username === username);
   if (existingUser) {
-    return res.fail('User already exists', 400);
+    return res.status(400).json({ message: 'User already exists' });
   }
 
   const newUser = {
@@ -38,8 +38,13 @@ module.exports.register = (req, res) => {
     avatar: avatar || '/imgs/me_page/robot.jpg',
   };
 
+  // Add the new user to the list
   userListData.push(newUser);
-  userList = () => userListData;
+
+  // Write the updated user list to the file
+  const fs = require('fs');
+  const path = require('path');
+  const filePath = path.join(__dirname, '../../data/user_list.js');
 
   const updatedUserListContent = `
 module.exports = () => {
@@ -47,16 +52,17 @@ module.exports = () => {
 };
   `;
 
-  const fs = require('fs');
-  const path = require('path');
-  const filePath = path.join(__dirname, '../../data/user_list.js');
-
   try {
-    fs.writeFileSync(filePath, updatedUserListContent);
-    res.success('User registered successfully');
+    fs.writeFileSync(filePath, updatedUserListContent);  // Save the updated user list
+
+    // Clear the cache and reload the user data after registration
+    delete require.cache[require.resolve('../../data/user_list.js')];
+    userList = require('../../data/user_list');
+
+    res.status(200).json({ message: 'User registered successfully', code: 0 });
   } catch (error) {
     console.error('Failed to write to user_list.js:', error);
-    res.fail('Registration failed, please try again');
+    res.status(500).json({ error: 'Registration failed, please try again' });
   }
 };
 
