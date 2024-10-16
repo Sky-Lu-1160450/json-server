@@ -8,25 +8,25 @@ module.exports = () => {
             label: "单品活动",
             icon: "",
             goods: [
-                {
-                    cartCount: 2,
-                    checked: true,
-                    id: 1,
-                    imgUrl: "/imgs/shop_page/goods-1.jpeg",
-                    name: "【果切】 芒果自由选 约 650g 芒果拼拼",
-                    oldPrice: 29.9,
-                    price: 9.9,
-                    sellCount: 587,
-                    rating: 4.2,
-                    tips: "",
-                    discount: {
-                      type: 1,
-                      limitCount: 1,
-                    },
-                  },
+              {
+                cartCount: 2,
+                checked: true,
+                id: 1,
+                imgUrl: "/imgs/shop_page/goods-1.jpeg",
+                name: "【果切】 芒果自由选 约 650g 芒果拼拼",
+                oldPrice: 29.9,
+                price: 9.9,
+                sellCount: 587,
+                rating: 4.2,
+                tips: "",
+                discount: {
+                  type: 1,
+                  limitCount: 1,
+                },
+              },
             ],
           },
-          // More categories for shop 1
+          // More categories
         ],
       },
       {
@@ -37,7 +37,6 @@ module.exports = () => {
             label: "单品活动",
             icon: "",
             goods: [
-              // Your goods here for shop 2
               {
                 cartCount: 0,
                 checked: true,
@@ -56,10 +55,9 @@ module.exports = () => {
               },
             ],
           },
-          // More categories for shop 2
+          // More categories
         ],
       },
-      // Add more shops here
     ];
   };
   
