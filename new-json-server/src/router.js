@@ -7,6 +7,7 @@ const shopPageController = require('./controller/shop_page');  // Add the contro
 const goodsListController = require('./controller/goods_list');
 const restaurantData = require('../data/restaurant_data')();  // Import restaurant data
 const cors = require('cors');
+// const sweetShopController = require('./controller/sweet_shop_list');  // 
 module.exports = (app) => {
   // Other routes...
   app.use(cors());
@@ -43,4 +44,6 @@ module.exports = (app) => {
   app.get('/api/order/user/:userId', orderController.getUserOrders);
   app.get('/api/shop_page/:id', shopPageController);
   app.get('/api/goods_list', goodsListController);
+  // app.get('/api/sweet-shops', sweetShopController);  // New route for sweet shops
+  
 };
