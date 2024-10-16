@@ -1,3 +1,4 @@
+// goods_list.js
 module.exports = () => {
     return [
       // Fruit Shop
@@ -10,7 +11,7 @@ module.exports = () => {
             icon: "",
             goods: [
               {
-                cartCount: 2,
+                cartCount: 0,
                 checked: true,
                 id: 1,
                 imgUrl: "/imgs/shop_page/goods-1.jpeg",
@@ -221,7 +222,7 @@ module.exports = () => {
                 checked: true,
                 id: 10,
                 imgUrl: "/imgs/shop_page/BuC.jpg",
-                name: "Beef Burger",
+                name: "Chicken Burger",
                 oldPrice: 12.9,
                 price: 9.9,
                 sellCount: 653,
@@ -237,7 +238,7 @@ module.exports = () => {
                 checked: true,
                 id: 11,
                 imgUrl: "/imgs/shop_page/Buger.jpg",
-                name: "Chicken Burger",
+                name: "Beef Burger",
                 oldPrice: 11.9,
                 price: 8.9,
                 sellCount: 432,
@@ -259,15 +260,15 @@ module.exports = () => {
                 cartCount: 0,
                 checked: true,
                 id: 12,
-                imgUrl: "/imgs/shop_page/goods-12.jpeg",
+                imgUrl: "/imgs/shop_page/Mub.jpg",
                 name: "Truffle Mushroom Burger",
-                oldPrice: 19.9,
+                oldPrice: 20.9,
                 price: 17.9,
                 sellCount: 98,
                 rating: 4.8,
                 tips: "A luxurious twist on a classic",
                 discount: {
-                  type: 2,
+                  type: '$3 off',
                   limitCount: 1,
                 },
               },
