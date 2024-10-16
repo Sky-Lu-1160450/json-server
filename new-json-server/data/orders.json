@@ -1750,5 +1750,32 @@
     "createdAt": "2024-10-16T08:16:23.129Z",
     "userId": "7",
     "address": "168 Tuapap st ,Wellington NZ"
+  },
+  {
+    "id": 58,
+    "items": [
+      {
+        "cartCount": 6,
+        "checked": true,
+        "id": 5,
+        "imgUrl": "/imgs/shop_page/goods-5.jpeg",
+        "name": "Vegetable Dumplings 10 pcs",
+        "oldPrice": 14.9,
+        "price": 11.9,
+        "sellCount": 543,
+        "rating": 4.8,
+        "tips": "Great for vegans",
+        "discount": {
+          "type": 1,
+          "limitCount": 2
+        }
+      }
+    ],
+    "totalPrice": 71.4,
+    "deliveryFee": 0,
+    "status": "Pending",
+    "createdAt": "2024-10-16T10:26:56.327Z",
+    "userId": "7",
+    "address": "168 Tuapap st ,Wellington NZ"
   }
 ]

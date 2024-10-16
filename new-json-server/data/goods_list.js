@@ -1,11 +1,12 @@
 module.exports = () => {
     return [
+      // Fruit Shop
       {
         shopId: 1,
         data: [
           {
             value: 1,
-            label: "单品活动",
+            label: "Fresh Fruits",
             icon: "",
             goods: [
               {
@@ -13,41 +14,235 @@ module.exports = () => {
                 checked: true,
                 id: 1,
                 imgUrl: "/imgs/shop_page/goods-1.jpeg",
-                name: "【果切】 芒果自由选 约 650g 芒果拼拼",
+                name: "Mango Slice 650g",
                 oldPrice: 29.9,
                 price: 9.9,
                 sellCount: 587,
                 rating: 4.2,
-                tips: "",
+                tips: "Freshly cut, use within 2 hours",
                 discount: {
                   type: 1,
                   limitCount: 1,
                 },
               },
-            ],
-          },
-          // More categories
-        ],
-      },
-      {
-        shopId: 2,
-        data: [
-          {
-            value: 1,
-            label: "单品活动",
-            icon: "",
-            goods: [
               {
                 cartCount: 0,
                 checked: true,
                 id: 2,
                 imgUrl: "/imgs/shop_page/goods-2.jpeg",
-                name: "【果切】 芒果随机拼 约 250g 阳光切果",
+                name: "Mixed Fruit 500g",
+                oldPrice: 25.9,
+                price: 12.5,
+                sellCount: 320,
+                rating: 4.5,
+                tips: "Perfect for a healthy snack",
+                discount: {
+                  type: 1,
+                  limitCount: 2,
+                },
+              },
+            ],
+          },
+          {
+            value: 2,
+            label: "Seasonal Deals",
+            icon: "",
+            goods: [
+              {
+                cartCount: 0,
+                checked: true,
+                id: 3,
+                imgUrl: "/imgs/shop_page/goods-3.jpeg",
+                name: "Seasonal Berries Mix 400g",
+                oldPrice: 19.9,
+                price: 15.9,
+                sellCount: 155,
+                rating: 4.7,
+                tips: "Best consumed fresh",
+                discount: {
+                  type: 2,
+                  limitCount: 2,
+                },
+              },
+            ],
+          },
+        ],
+      },
+  
+      // Dumpling Shop
+      {
+        shopId: 2,
+        data: [
+          {
+            value: 1,
+            label: "Signature Dumplings",
+            icon: "",
+            goods: [
+              {
+                cartCount: 0,
+                checked: true,
+                id: 4,
+                imgUrl: "/imgs/shop_page/goods-4.jpeg",
+                name: "Pork Dumplings 12 pcs",
+                oldPrice: 15.9,
+                price: 12.9,
+                sellCount: 789,
+                rating: 4.6,
+                tips: "Comes with dipping sauce",
+                discount: {
+                  type: 1,
+                  limitCount: 3,
+                },
+              },
+              {
+                cartCount: 0,
+                checked: true,
+                id: 5,
+                imgUrl: "/imgs/shop_page/goods-5.jpeg",
+                name: "Vegetable Dumplings 10 pcs",
+                oldPrice: 14.9,
+                price: 11.9,
+                sellCount: 543,
+                rating: 4.8,
+                tips: "Great for vegans",
+                discount: {
+                  type: 1,
+                  limitCount: 2,
+                },
+              },
+            ],
+          },
+          {
+            value: 2,
+            label: "Family Combos",
+            icon: "",
+            goods: [
+              {
+                cartCount: 0,
+                checked: true,
+                id: 6,
+                imgUrl: "/imgs/shop_page/goods-6.jpeg",
+                name: "Family Dumpling Feast (30 pcs)",
+                oldPrice: 45.9,
+                price: 39.9,
+                sellCount: 200,
+                rating: 4.9,
+                tips: "Feeds 4-5 people",
+                discount: {
+                  type: 2,
+                  limitCount: 1,
+                },
+              },
+            ],
+          },
+        ],
+      },
+  
+      // Sushi Shop
+      {
+        shopId: 3,
+        data: [
+          {
+            value: 1,
+            label: "Sushi Rolls",
+            icon: "",
+            goods: [
+              {
+                cartCount: 0,
+                checked: true,
+                id: 7,
+                imgUrl: "/imgs/shop_page/goods-7.jpeg",
+                name: "Salmon Sushi Roll 8 pcs",
+                oldPrice: 13.9,
+                price: 11.9,
+                sellCount: 321,
+                rating: 4.7,
+                tips: "Fresh salmon, made to order",
+                discount: {
+                  type: 1,
+                  limitCount: 2,
+                },
+              },
+              {
+                cartCount: 0,
+                checked: true,
+                id: 8,
+                imgUrl: "/imgs/shop_page/goods-8.jpeg",
+                name: "Avocado Sushi Roll 8 pcs",
+                oldPrice: 11.9,
+                price: 9.9,
+                sellCount: 210,
+                rating: 4.5,
+                tips: "A healthy choice",
+                discount: {
+                  type: 1,
+                  limitCount: 2,
+                },
+              },
+            ],
+          },
+          {
+            value: 2,
+            label: "Sashimi Specials",
+            icon: "",
+            goods: [
+              {
+                cartCount: 0,
+                checked: true,
+                id: 9,
+                imgUrl: "/imgs/shop_page/goods-9.jpeg",
+                name: "Tuna Sashimi 100g",
                 oldPrice: 16.9,
-                price: 3.99,
-                sellCount: 354,
-                rating: 4.3,
-                tips: "现切鲜果，请于两小时内使用",
+                price: 14.9,
+                sellCount: 150,
+                rating: 4.9,
+                tips: "Best served with soy sauce and wasabi",
+                discount: {
+                  type: 2,
+                  limitCount: 2,
+                },
+              },
+            ],
+          },
+        ],
+      },
+  
+      // Burger Shop
+      {
+        shopId: 4,
+        data: [
+          {
+            value: 1,
+            label: "Classic Burgers",
+            icon: "",
+            goods: [
+              {
+                cartCount: 0,
+                checked: true,
+                id: 10,
+                imgUrl: "/imgs/shop_page/goods-10.jpeg",
+                name: "Beef Burger",
+                oldPrice: 12.9,
+                price: 9.9,
+                sellCount: 653,
+                rating: 4.6,
+                tips: "Served with fries",
+                discount: {
+                  type: 1,
+                  limitCount: 1,
+                },
+              },
+              {
+                cartCount: 0,
+                checked: true,
+                id: 11,
+                imgUrl: "/imgs/shop_page/goods-11.jpeg",
+                name: "Chicken Burger",
+                oldPrice: 11.9,
+                price: 8.9,
+                sellCount: 432,
+                rating: 4.5,
+                tips: "Served with a side salad",
                 discount: {
                   type: 1,
                   limitCount: 1,
@@ -55,7 +250,29 @@ module.exports = () => {
               },
             ],
           },
-          // More categories
+          {
+            value: 2,
+            label: "Gourmet Burgers",
+            icon: "",
+            goods: [
+              {
+                cartCount: 0,
+                checked: true,
+                id: 12,
+                imgUrl: "/imgs/shop_page/goods-12.jpeg",
+                name: "Truffle Mushroom Burger",
+                oldPrice: 19.9,
+                price: 17.9,
+                sellCount: 98,
+                rating: 4.8,
+                tips: "A luxurious twist on a classic",
+                discount: {
+                  type: 2,
+                  limitCount: 1,
+                },
+              },
+            ],
+          },
         ],
       },
     ];
