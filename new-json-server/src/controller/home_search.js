@@ -9,6 +9,6 @@ module.exports = (req, res) => {
             list
         });
         
-    }, 1000);
+    }, 10);
     
 };

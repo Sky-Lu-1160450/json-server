@@ -57,7 +57,7 @@ router(server);  // Ensure the custom routes, including restaurants, are applied
 // Setting up the JSON Server router with your database
 const jsonRouter = jsonServer.router(db);
 server.use((req, res, next) => {
-  setTimeout(next, 1000); // Simulate delay
+  setTimeout(next, 10); // Simulate delay
 });
 server.use('/api', jsonRouter);  // Set up /api route
 
