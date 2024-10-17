@@ -11,7 +11,7 @@ module.exports = () => {
     ],
     transformer: [
       { label: 'Chinese Food'},
-      { label: 'Korean Food' },
+      { label: 'Fresh Fruit' },
       { label: 'Tailand food' },
       { label: 'Italian Food' },
       { label: 'Mexican Food' },
@@ -23,16 +23,28 @@ module.exports = () => {
     scrollBarInfoList: [
       {
         type: 'Promotion',
-        badge: 'New',
-        detail: 'Exclusive deal: Buy one pizza, get one free for the next 24 hours!',
-        btn: 'Order Now'
+        badge: 'Hot Deal',
+        detail:'Order $60=free delivery on all items!',
+        btn: '🚀Fast & Free'
       },
       {
-        type: 'Promotion',
-        badge: 'New',
-        detail: 'New dish Roasted Duck at $8.88',
-        btn: 'Order Now'
-      }
+        type: 'Limited Time',
+        badge: 'Exclusive',
+        detail:'Ensure top quality in every order.',
+        btn: '🏅 Quality Guaranteed'
+      },
+      {
+        type: 'Appreciation',
+        badge: 'Special Offer',
+        detail:'Your trust means everything to us.',
+        btn: '🎁 Just for You'
+      },
+      // {
+      //   type: 'Promotion',
+      //   badge:'Time’s Ticking!',
+      //   detail:'Make the most of your time— Order now!',
+      //   btn: '⏳Don’t Miss Out'
+      // },
     ],
     countdown: {
       time: '24:00:00',

@@ -1804,5 +1804,64 @@
     "createdAt": "2024-10-16T19:19:34.007Z",
     "userId": "7",
     "address": "168 Tuapap st ,Wellington NZ"
+  },
+  {
+    "id": 60,
+    "items": [
+      {
+        "cartCount": 3,
+        "checked": true,
+        "id": 17,
+        "imgUrl": "/imgs/shop_page/Carb.jpg",
+        "name": "Spaghetti Carbonara",
+        "oldPrice": 14.9,
+        "price": 12.9,
+        "sellCount": 430,
+        "rating": 4.7,
+        "tips": "Creamy pancetta and Parmesan",
+        "discount": {
+          "type": 1,
+          "limitCount": 1
+        }
+      },
+      {
+        "cartCount": 3,
+        "checked": true,
+        "id": 16,
+        "imgUrl": "/imgs/shop_page/Mar.jpg",
+        "name": "Margherita Pizza",
+        "oldPrice": 18.9,
+        "price": 15.9,
+        "sellCount": 560,
+        "rating": 4.8,
+        "tips": "fresh mozzarella and basil",
+        "discount": {
+          "type": 1,
+          "limitCount": 1
+        }
+      },
+      {
+        "cartCount": 1,
+        "checked": true,
+        "id": 18,
+        "imgUrl": "/imgs/shop_page/Tim.jpg",
+        "name": "Tiramisu",
+        "oldPrice": 8.9,
+        "price": 6.9,
+        "sellCount": 350,
+        "rating": 4.9,
+        "tips": "Italian dessert coffee mascarpone",
+        "discount": {
+          "type": 1,
+          "limitCount": 2
+        }
+      }
+    ],
+    "totalPrice": 93.3,
+    "deliveryFee": 0,
+    "status": "Pending",
+    "createdAt": "2024-10-17T02:58:13.379Z",
+    "userId": "7",
+    "address": "168 Tuapap st ,Wellington NZ"
   }
 ]
