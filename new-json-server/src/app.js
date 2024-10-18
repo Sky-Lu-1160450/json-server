@@ -3,7 +3,7 @@ const jsonServer = require('json-server');
 const TokenService = require('./service/token')
 
 // Importing router and database configuration
-const router = require('./router');  // This includes the restaurant routes
+const router = require('./router');  
 const db = require('./db')();
 
 const server = jsonServer.create();
@@ -54,7 +54,7 @@ server.use((req, res, next) => {
 // Apply custom router configuration
 router(server);  // Ensure the custom routes, including restaurants, are applied
 
-// Setting up the JSON Server router with your database
+
 const jsonRouter = jsonServer.router(db);
 server.use((req, res, next) => {
   setTimeout(next, 10); // Simulate delay

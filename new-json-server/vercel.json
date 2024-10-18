@@ -1,19 +1,25 @@
 {
     "builds": [
       {
-        "src": "package.json",
-        "use": "@vercel/static-build"
+        "src": "src/app.js",
+        "use": "@vercel/node"
       }
     ],
     "routes": [
       {
         "src": "/api/(.*)",
-        "dest": "/api/$1"
+        "dest": "/src/app.js"
       },
       {
         "src": "/(.*)",
         "dest": "/public/$1"
       }
-    ]
+    ],
+    "functions": {
+      "src/app.js": {
+        "memory": 1024,
+        "includeFiles": "data/**"
+      }
+    }
   }
   
