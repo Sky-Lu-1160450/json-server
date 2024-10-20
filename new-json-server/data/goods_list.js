@@ -30,7 +30,7 @@ module.exports = () => {
                 cartCount: 0,
                 checked: true,
                 id: 2,
-                imgUrl: "/imgs/shop_page/goods-9.jpeg",
+                imgUrl: "/imgs/shop_page/goods-9.jpg",
                 name: "Mixed Fruit 500g",
                 oldPrice: 25.9,
                 price: 12.5,

@@ -48,7 +48,7 @@ module.exports = () => {
     "password": "123456",
     "nickname": "zhong",
     "avatar": "/imgs/me_page/robot.jpg",
-    "address": "168 Tuapap st ,Wellington NZ"
+    "address": "55 toggle street, stockhome"
   },
   {
     "id": 8,
@@ -98,6 +98,27 @@ module.exports = () => {
     "nickname": "fuzhu",
     "avatar": "/imgs/me_page/robot.jpg",
     "address": "28 XIAGU, Wellington"
+  },
+  {
+    "id": 15,
+    "username": "luweidong",
+    "password": "ssssss",
+    "nickname": "luweidong",
+    "avatar": "/imgs/me_page/robot.jpg"
+  },
+  {
+    "id": 16,
+    "username": "lu",
+    "password": "aaaaa",
+    "nickname": "New User",
+    "avatar": "/imgs/me_page/robot.jpg"
+  },
+  {
+    "id": 17,
+    "username": "louae",
+    "password": "louae",
+    "nickname": "New User",
+    "avatar": "/imgs/me_page/robot.jpg"
   }
 ];
 };
