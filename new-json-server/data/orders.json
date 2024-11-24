@@ -2073,5 +2073,285 @@
     "createdAt": "2024-10-20T05:04:10.324Z",
     "userId": "7",
     "address": "168 Tuapap st ,Wellington NZ"
+  },
+  {
+    "id": 67,
+    "items": [
+      {
+        "cartCount": 4,
+        "checked": true,
+        "id": 5,
+        "imgUrl": "/imgs/shop_page/VeD.jpg",
+        "name": "Vegetable Dumplings 10 pcs",
+        "oldPrice": 14.9,
+        "price": 11.9,
+        "sellCount": 543,
+        "rating": 4.8,
+        "tips": "Great for vegans",
+        "discount": {
+          "type": 1,
+          "limitCount": 2
+        }
+      },
+      {
+        "cartCount": 3,
+        "checked": true,
+        "id": 6,
+        "imgUrl": "/imgs/shop_page/FaD.jpg",
+        "name": "Family Dumpling Feast (30 pcs)",
+        "oldPrice": 45.9,
+        "price": 39.9,
+        "sellCount": 200,
+        "rating": 4.9,
+        "tips": "Feeds 4-5 people",
+        "discount": {
+          "type": 2,
+          "limitCount": 1
+        }
+      }
+    ],
+    "totalPrice": 167.3,
+    "deliveryFee": 0,
+    "status": "Pending",
+    "createdAt": "2024-11-06T10:48:47.997Z",
+    "userId": "18",
+    "address": "1 cuba st , Wellington, nz"
+  },
+  {
+    "id": 68,
+    "items": [
+      {
+        "cartCount": 5,
+        "checked": true,
+        "id": 18,
+        "imgUrl": "/imgs/shop_page/Tim.jpg",
+        "name": "Tiramisu",
+        "oldPrice": 8.9,
+        "price": 6.9,
+        "sellCount": 350,
+        "rating": 4.9,
+        "tips": "Italian dessert coffee mascarpone",
+        "discount": {
+          "type": 1,
+          "limitCount": 2
+        }
+      }
+    ],
+    "totalPrice": 34.5,
+    "deliveryFee": 10,
+    "status": "Pending",
+    "createdAt": "2024-11-06T10:50:41.783Z",
+    "userId": "18",
+    "address": "1 cuba st , Wellington, nz"
+  },
+  {
+    "id": 69,
+    "items": [
+      {
+        "cartCount": 4,
+        "checked": true,
+        "id": 3,
+        "imgUrl": "/imgs/shop_page/berry.jpg",
+        "name": "Seasonal Berries Mix 400g",
+        "oldPrice": 19.9,
+        "price": 15.9,
+        "sellCount": 155,
+        "rating": 4.7,
+        "tips": "Best consumed fresh",
+        "discount": {
+          "type": 2,
+          "limitCount": 2
+        }
+      }
+    ],
+    "totalPrice": 63.6,
+    "deliveryFee": 0,
+    "status": "Completed",
+    "createdAt": "2024-11-06T10:52:50.309Z",
+    "userId": "18",
+    "address": "23 Cuba st "
+  },
+  {
+    "id": 70,
+    "items": [
+      {
+        "cartCount": 3,
+        "checked": true,
+        "id": 19,
+        "imgUrl": "/imgs/shop_page/Tac.jpg",
+        "name": "Tacos Al Pastor",
+        "oldPrice": 12.9,
+        "price": 10.9,
+        "sellCount": 620,
+        "rating": 4.7,
+        "tips": "Corn tortillas marinated pork",
+        "discount": {
+          "type": 1,
+          "limitCount": 2
+        }
+      },
+      {
+        "cartCount": 3,
+        "checked": true,
+        "id": 20,
+        "imgUrl": "/imgs/shop_page/Enc.jpg",
+        "name": "Cheese Enchiladas",
+        "oldPrice": 14.9,
+        "price": 12.9,
+        "sellCount": 510,
+        "rating": 4.8,
+        "tips": "Stuffed with cheese red sauce",
+        "discount": {
+          "type": 1,
+          "limitCount": 1
+        }
+      },
+      {
+        "cartCount": 4,
+        "checked": true,
+        "id": 21,
+        "imgUrl": "/imgs/shop_page/Guc.jpg",
+        "name": "Guacamole & Chips",
+        "oldPrice": 7.9,
+        "price": 5.9,
+        "sellCount": 720,
+        "rating": 4.9,
+        "tips": "Guacamole with tortilla chips",
+        "discount": {
+          "type": 1,
+          "limitCount": 2
+        }
+      }
+    ],
+    "totalPrice": 95,
+    "deliveryFee": 0,
+    "status": "Pending",
+    "createdAt": "2024-11-06T10:59:58.093Z",
+    "userId": "18",
+    "address": "23 Cuba st "
+  },
+  {
+    "id": 71,
+    "items": [
+      {
+        "cartCount": 7,
+        "checked": true,
+        "id": 10,
+        "imgUrl": "/imgs/shop_page/BuC.jpg",
+        "name": "Chicken Burger",
+        "oldPrice": 12.9,
+        "price": 9.9,
+        "sellCount": 653,
+        "rating": 4.6,
+        "tips": "Served with Juicy fries",
+        "discount": {
+          "type": 1,
+          "limitCount": 1
+        }
+      }
+    ],
+    "totalPrice": 69.3,
+    "deliveryFee": 0,
+    "status": "Pending",
+    "createdAt": "2024-11-06T11:12:10.705Z",
+    "userId": "19",
+    "address": "2 cuba st "
+  },
+  {
+    "id": 72,
+    "items": [
+      {
+        "cartCount": 4,
+        "checked": true,
+        "id": 7,
+        "imgUrl": "/imgs/shop_page/Sushi.jpg",
+        "name": "Salmon Roll 8 pcs",
+        "oldPrice": 13.9,
+        "price": 11.9,
+        "sellCount": 321,
+        "rating": 4.7,
+        "tips": "Fresh salmon, made to order",
+        "discount": {
+          "type": 1,
+          "limitCount": 2
+        }
+      },
+      {
+        "cartCount": 3,
+        "checked": true,
+        "id": 8,
+        "imgUrl": "/imgs/shop_page/AvS.jpg",
+        "name": "Avocado Roll 8 pcs",
+        "oldPrice": 11.9,
+        "price": 9.9,
+        "sellCount": 210,
+        "rating": 4.5,
+        "tips": "A healthy choice",
+        "discount": {
+          "type": 1,
+          "limitCount": 2
+        }
+      }
+    ],
+    "totalPrice": 77.3,
+    "deliveryFee": 0,
+    "status": "Pending",
+    "createdAt": "2024-11-06T11:19:09.855Z",
+    "userId": "20",
+    "address": "2 Tua st "
+  },
+  {
+    "id": 73,
+    "items": [
+      {
+        "cartCount": 3,
+        "checked": true,
+        "id": 4,
+        "imgUrl": "/imgs/shop_page/PoD.jpg",
+        "name": "Pork Dumplings 12 pcs",
+        "oldPrice": 15.9,
+        "price": 12.9,
+        "sellCount": 789,
+        "rating": 4.6,
+        "tips": "Comes with dipping sauce",
+        "discount": {
+          "type": 1,
+          "limitCount": 3
+        }
+      }
+    ],
+    "totalPrice": 38.7,
+    "deliveryFee": 10,
+    "status": "Pending",
+    "createdAt": "2024-11-06T11:19:25.521Z",
+    "userId": "20",
+    "address": "2 Tua st "
+  },
+  {
+    "id": 74,
+    "items": [
+      {
+        "cartCount": 2,
+        "checked": true,
+        "id": 13,
+        "imgUrl": "/imgs/shop_page/Pad.jpg",
+        "name": "Pad Thai",
+        "oldPrice": 15.9,
+        "price": 12.9,
+        "sellCount": 450,
+        "rating": 4.7,
+        "tips": "Authentic Thai stir-fried noodles",
+        "discount": {
+          "type": 1,
+          "limitCount": 2
+        }
+      }
+    ],
+    "totalPrice": 25.8,
+    "deliveryFee": 10,
+    "status": "Pending",
+    "createdAt": "2024-11-06T11:27:14.645Z",
+    "userId": "22",
+    "address": "6 tua st "
   }
 ]

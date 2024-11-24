@@ -9,7 +9,7 @@ module.exports.login = (req, res, next) => {
   
   const userInfo = userListData.find((v) => v.username === username && v.password === password)
   if (!userInfo) {
-    res.fail('请填写正确的用户名和密码')
+    res.fail('Please enter the correct username and password')
     return
   }
   delete userInfo.password
