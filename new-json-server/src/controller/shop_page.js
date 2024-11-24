@@ -5,9 +5,7 @@ module.exports = (req, res) => {
   const shop = shopData().find(s => s.id === shopId);  // Find the shop with the matching ID
 
   if (shop) {
-    res.success({
-      data: shop
-    });
+    res.success(shop);
   } else {
     res.fail('Shop not found', 404);
   }

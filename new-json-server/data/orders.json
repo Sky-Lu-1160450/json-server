@@ -2353,5 +2353,48 @@
     "createdAt": "2024-11-06T11:27:14.645Z",
     "userId": "22",
     "address": "6 tua st "
+  },
+  {
+    "id": 75,
+    "items": [
+      {
+        "cartCount": 1,
+        "checked": true,
+        "id": 7,
+        "imgUrl": "/imgs/shop_page/Sushi.jpg",
+        "name": "Salmon Roll 8 pcs",
+        "oldPrice": 13.9,
+        "price": 11.9,
+        "sellCount": 321,
+        "rating": 4.7,
+        "tips": "Fresh salmon, made to order",
+        "discount": {
+          "type": 1,
+          "limitCount": 2
+        }
+      },
+      {
+        "cartCount": 1,
+        "checked": true,
+        "id": 8,
+        "imgUrl": "/imgs/shop_page/AvS.jpg",
+        "name": "Avocado Roll 8 pcs",
+        "oldPrice": 11.9,
+        "price": 9.9,
+        "sellCount": 210,
+        "rating": 4.5,
+        "tips": "A healthy choice",
+        "discount": {
+          "type": 1,
+          "limitCount": 2
+        }
+      }
+    ],
+    "totalPrice": 21.8,
+    "deliveryFee": 10,
+    "status": "Pending",
+    "createdAt": "2024-11-24T09:46:04.493Z",
+    "userId": "27",
+    "address": "dds"
   }
 ]
